@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+</head>
+  
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            ☰
+        </span>
+  
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+  
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            ❌
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+  
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>leetCode</h1>
+            <button>
+                <a href=
+"https://www.leetcode.com/">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src=
+			"https://www.krammerliu.com/images/post/leetcode.jpeg"
+                width="500">
+        </div>
+    </div>
+  
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>A new way to learn</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            PROBLEMS
+                        </a>
+                    </div>
+                    <p>
+                        Over 2650 questions for you to practice. 
+						Come and join one of the largest tech communities
+						with hundreds of thousands of active users and participate 
+						in our contests to challenge yourself and earn rewards.
+                    </p>
+                </div>
+                <div class="box">
+  
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            CONTESTS
+                        </a>
+                    </div>
+                    <p>
+						Enhance your coding abilities and get valuable 
+						real-world feedback by participating in 
+						contests on LeetCode. You can also win up 
+						to 5000 LeetCoins per contests.
+                    </p>
+                </div>
+  
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Interview-Practice
+                        </a>
+                    </div>
+                    <p>
+                        LeetCode Explore is the best place for everyone 
+						to start practicing and learning ... Our top 
+						interview questions are divided into the categories.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            support@leetcode.com
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            Greetings to all the coders out there!
+                            We welcome you to the platform where we
+                            consistently strive to offer the best 
+                            of preparation. This platform has been 
+                            designed for every leetcoders wishing to 
+                            expand their knowledge, share their 
+                            knowledge and is ready to grab their 
+                            dream job. We have millions of problems,
+                            live as well as online contests, thousands 
+                            of Interview-Practice problem and much more just for the 
+                            leet inside you.Thank you for choosing 
+                            and supporting us!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="https://www.leetCode.com/" 
+                    target="_blank">
+                    Leetcode
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+  
+</html>
